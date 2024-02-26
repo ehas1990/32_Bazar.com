@@ -34,9 +34,14 @@
 {
     color:#30C7CF !important;
 }
-.text-orginal
+.text-orginal,.text-orginal-1
 {
     color:#30C7CF !important;
+    text-decoration: none !important;
+}
+.text-orginal-1:hover
+{
+color:#0000;
 }
 .text-orginal:hover
 {
@@ -62,9 +67,8 @@
     padding: 5%;
 }
 #register-details .form-control {
-  border-color: #ffffff;
-  background: #0000000a;
-  
+  border-color: #9d9d9df5;
+  background: #9d9d9df5;
   height: 40px;
 }
 #register-details ::placeholder
