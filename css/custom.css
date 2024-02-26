@@ -641,12 +641,15 @@ select {
 
 .nl-popup-main {
     display: block;
-    background:#ffffff url("../images/newspopup.jpg") no-repeat scroll left top;
+    background: #ffffff url("../images/newspopup.jpg");
     overflow: hidden;
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     -o-border-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: invert(1);
 }
 
 .nl-popup-inner {
@@ -3443,7 +3446,7 @@ _______________________________________________________*/
 .newsletter-inner h2.main_title {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     padding: 0;
-    color: #ffffff
+    color: #000000;
 }
 .newsletter {
     background: rgba(0, 0, 0, 0) url("../images/newsletter_bg.jpg") repeat scroll center center;

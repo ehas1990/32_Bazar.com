@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  
   $("#fa-times-circle-id1").click(function(){
   $("#card-list-id1").hide();
 $("#cart-dropdown").empty();

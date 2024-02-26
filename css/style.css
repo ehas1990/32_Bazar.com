@@ -1,7 +1,15 @@
 #product_img {
-  
     width: 90%;
-    object-fit: scale-down;
+    position: absolute;
+    object-fit: none;
+    aspect-ratio: 2/2;
+}
+.product-image {
+    border: 1px solid #eaeaea;
+    min-width: 90px;
+    overflow: hidden;
+    /* position: relative; */
+    height: 250px !important;
 }
 #right-link
 {

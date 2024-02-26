@@ -219,5 +219,24 @@ color:#0000;
 }
 .logo
 {
-  width:30%
+  width:30% !important;
+}
+.increase.items, .reduced.items {
+  background: transparent;
+  border: 1px solid #e1e1e1;
+  color: #888;
+  padding: 10px 11px 9px;
+  float: left;
+  border-radius: 100% !important;
+}
+#newslater-popup .newsletter-inner p {
+  margin-bottom: 20px;
+  padding: 0 80px;
+  color: #000;
+}
+#newslater-popup .newsletter-inner form button {
+  position: relative;
+  background: #28a8af;
+  color: #000 !important;
+  cursor: pointer;
 }
