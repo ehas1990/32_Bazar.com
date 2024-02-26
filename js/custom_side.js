@@ -1,5 +1,8 @@
 $(document).ready(function () {
-  $(".cart-remove-item").click(function(){
+  $("#wishlist-cart-item").click(function(){
+    $("tr").hide();
+  });
+  $("#cart-remove-item").click(function(){
     $("tr").hide();
   });
   $("#fa-times-circle-id1").click(function(){
