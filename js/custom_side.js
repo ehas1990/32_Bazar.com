@@ -305,36 +305,42 @@ $(".pagination-button").on("click", function () {
  
 }
 });
+// product Descrpition
 $(".tab-tab-Description").click(function () { 
-$(".items-Specifications-Tags").hide(); 
-$(".items-Features-Tags").hide(); 
+  $(".items-Description").show();
+  $(".items-Specifications-Tags").hide(); 
+  $(".items-Features-Tags").hide(); 
+  $(".items-Reviews").hide();
+  
+  });
+  $(".tab-Specifications-Tags").click(function () { 
+  
+  $(".items-Specifications-Tags").show(); 
+  $(".items-Specifications-Tags").addClass("Description");  
+  $(".items-Features-Tags").hide(); 
+  $(".items-Reviews").hide();
+  $(".items-Description").hide();
+  });
+  $(".tab-Reviews").click(function () { 
+  
+  $(".items-Specifications-Tags").hide(); 
+  $(".items-Features-Tags").hide(); 
+  $(".items-Description").hide();
+  $(".items-Reviews").show();
+  
+  
+  });
+  $(".tab-Features-Tags").click(function () { 
+  
+  $(".items-Features-Tags").show(); 
+  $(".items-Specifications-Tags").hide(); 
+  $(".items-Reviews").hide();
+  $(".items-Description").hide();
 
-
-
-});
-$(".tab-Specifications-Tags").click(function () { 
-
-$(".items-Specifications-Tags").show(); 
-
-$(".items-Specifications-Tags").addClass("Description");  
-});
-$(".tab-Reviews").click(function () { 
-
-$(".items-Specifications-Tags").hide(); 
-$(".items-Features-Tags").hide(); 
-
-
-});
-$(".tab-Features-Tags").click(function () { 
-
-$(".items-Features-Tags").show(); 
-$(".items-Specifications-Tags").hide(); 
-
-$(".items-Features-Tags").addClass("Description");  
-});
-
-});
-
+  $(".items-Features-Tags").addClass("Description");  
+  });
+  
+  });
 document.addEventListener("DOMContentLoaded", function () {
 // Get the elements
 var priceElement = document.querySelector(".price");

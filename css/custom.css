@@ -4588,11 +4588,9 @@ _______________________________________________________*/
 	font-size: 16px;
 	line-height: 20px;
 }
-.items-Description, .items-Product-Tags, .items-Reviews {
+.items-Specifications-Tags,.items-Features-Tags,.items-Reviews
+{
 	display: none;
-}
-.items-Description.selected, .items-Product-Tags.selected, .items-Reviews.selected {
-	display: block;
 }
 /* Product Page Tab CSS End */
 

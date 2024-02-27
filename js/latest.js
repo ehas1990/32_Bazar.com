@@ -285,35 +285,6 @@ $(document).ready(function () {
    
   }
  });
- $(".tab-tab-Description").click(function () { 
-  $(".items-Specifications-Tags").hide(); 
-  $(".items-Features-Tags").hide(); 
- 
-
- 
- });
- $(".tab-Specifications-Tags").click(function () { 
-
-  $(".items-Specifications-Tags").show(); 
-
-  $(".items-Specifications-Tags").addClass("Description");  
- });
- $(".tab-Reviews").click(function () { 
-
-  $(".items-Specifications-Tags").hide(); 
-  $(".items-Features-Tags").hide(); 
-
-  
- });
- $(".tab-Features-Tags").click(function () { 
-
-  $(".items-Features-Tags").show(); 
-  $(".items-Specifications-Tags").hide(); 
-
-  $(".items-Features-Tags").addClass("Description");  
- });
-
-});
 
 document.addEventListener("DOMContentLoaded", function () {
   // Get the elements

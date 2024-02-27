@@ -14,7 +14,7 @@
 #right-link
 {
 
-    float:inline-end;
+    float:right;
 }
 .navbar-nav > li > a {
     padding: 10px 5px !important;
@@ -47,10 +47,7 @@
 .fotorama__wrap {
     width: 260px !important;  
 }
-.items-Specifications-Tags,.items-Features-Tags,.product-item-details1,.product-item-details2
-{
-    display:none;
-}
+
 .productdesc li
 {
 margin-top: 3%;
